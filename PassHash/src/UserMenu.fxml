@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="600.0" minWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller.UserController">
+   <children>
+      <Label layoutX="286.0" layoutY="51.0" text="Label" />
+      <Button fx:id="BACK" layoutX="140.0" layoutY="467.0" mnemonicParsing="false" onAction="#Back" text="Exit" />
+      <Button fx:id="EDIT" layoutX="406.0" layoutY="467.0" mnemonicParsing="false" onAction="#Edit" text="Edit" />
+      <Label fx:id="ACCT1" layoutX="286.0" layoutY="122.0" text="Label" />
+      <Label fx:id="ACCT2" layoutX="286.0" layoutY="146.0" text="Label" />
+      <Label fx:id="ACCT3" layoutX="286.0" layoutY="171.0" text="Label" />
+      <Label fx:id="ACCT4" layoutX="286.0" layoutY="196.0" text="Label" />
+      <Label fx:id="ACCT5" layoutX="286.0" layoutY="221.0" text="Label" />
+      <Label fx:id="ACCT6" layoutX="286.0" layoutY="246.0" text="Label" />
+      <Label fx:id="ACCT7" layoutX="286.0" layoutY="272.0" text="Label" />
+      <Label fx:id="ACCT8" layoutX="286.0" layoutY="300.0" text="Label" />
+      <Label fx:id="ACCT9" layoutX="286.0" layoutY="326.0" text="Label" />
+      <Label fx:id="ACCT10" layoutX="286.0" layoutY="352.0" text="Label" />
+   </children>
+</AnchorPane>

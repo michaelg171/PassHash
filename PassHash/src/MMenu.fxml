@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane minHeight="600.0" minWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.Controller.WelcomeController">
+   <children>
+      <Button fx:id="Enter" layoutX="278.0" layoutY="388.0" mnemonicParsing="false" onAction="#Enter" text="Enter" />
+      <Button fx:id="NewAcc" layoutX="408.0" layoutY="388.0" mnemonicParsing="false" onAction="#NewUser" text="NewAcc" />
+      <TextField fx:id="USE" layoutX="84.0" layoutY="212.0" />
+      <Label fx:id="NonUser1" layoutX="286.0" layoutY="480.0" text="Label" />
+      <TextField fx:id="Pword" layoutX="369.0" layoutY="212.0" />
+      <Button fx:id="Exit" layoutX="133.0" layoutY="388.0" mnemonicParsing="false" onAction="#Exit" text="Exit" />
+   </children>
+</AnchorPane>
